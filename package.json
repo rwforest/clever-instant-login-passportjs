@@ -1,0 +1,28 @@
+{
+  "name": "clever-login",
+  "version": "0.1.0",
+  "description": "Clever login example",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3",
+    "passport": "0.3.2",
+    "passport-oauth": "1.0.0",
+    "cookie-parser": "1.4.3",
+    "body-parser": "1.15.2",
+    "express-session": "1.14.2",
+    "request" : "2.79.0",
+
+    "passport-oauth2": "1.x.x",
+    "oauth": "0.9.x",
+    "passport-strategy": "1.x.x",
+    "uid2": "0.0.x",
+    "utils-merge": "1.x.x"
+  }
+}
