@@ -17,7 +17,7 @@ Here are a few resources that should not be missed:
 
 ### App Configuration
 
-We've stored configuration for our app in a separate file. The necessary values are available in our application and default district. We've separated our client id from the instant login url below. The PassportJS framework will handle this addition at runtime, and this relieves us from repeating the client id in our configuration. We have used the /instant-login endpoint for the login url, but this application would function the same if the /authorize endpoint were substituted.
+We've stored configuration for our app in a separate file. The values to complete this configuration are found in your application and district within the developer portal. We've separated our client id from the instant login url below. The PassportJS framework will handle this addition at runtime, and this relieves us from repeating the client id in our configuration. We have used the /instant-login endpoint for the login url, but this application would function the same if the /authorize endpoint were substituted.
 
 ```javascript
 var appConfig = {
