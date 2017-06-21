@@ -119,8 +119,8 @@ function handleRequest(user, options, callback) {
 app.get('/auth/clever-instant', passport.authenticate('clever-instant'));
 
 // callback for clever auth
-app.get('/auth/clever-instant/callback', 
-  passport.authenticate('clever-instant', { successRedirect: '/',
+app.get('/oauth/clever/callback', 
+  passport.authenticate('clever-instant', { successRedirect: 'http://localhost:8000/',
                                             failureRedirect: '/login'
                                           }));
 
