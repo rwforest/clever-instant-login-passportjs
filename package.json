@@ -1,13 +1,13 @@
 {
-  "name": "clever-login",
+  "name": "@activelylearn/passport-clever-oauth20",
   "version": "0.1.0",
-  "description": "Clever login example",
+  "description": "PassportJS + Clever Instant Login",
   "engines": {
     "node": "5.9.1"
   },
-  "main": "example.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node example.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "ejs": "2.4.1",

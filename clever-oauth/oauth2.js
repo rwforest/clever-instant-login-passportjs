@@ -2,8 +2,7 @@ var querystring= require('querystring'),
     crypto= require('crypto'),
     https= require('https'),
     http= require('http'),
-    URL= require('url'),
-    OAuthUtils= require('./_utils');
+    URL= require('url');
 
 exports.OAuth2= function(clientId, clientSecret, baseSite, authorizePath, accessTokenPath, customHeaders) {
   this._clientId= clientId;
@@ -123,7 +122,7 @@ exports.OAuth2.prototype._request= function(method, url, headers, post_body, acc
 exports.OAuth2.prototype._executeRequest= function( http_library, options, post_body, callback ) {
   // Some hosts *cough* google appear to close the connection early / send no content-length header
   // allow this behaviour.
-  var allowEarlyClose= OAuthUtils.isAnEarlyCloseHost(options.host);
+  var allowEarlyClose= options.host && options.host.match(".*google(apis)?.com$")
   var callbackCalled= false;
   function passBackControl( response, result ) {
     if(!callbackCalled) {
