@@ -1,28 +1,129 @@
 {
-  "name": "@activelylearn/passport-clever-oauth20",
-  "version": "0.1.0",
+  "_args": [
+    [
+      {
+        "raw": "@activelylearn/passport-clever-oauth20",
+        "scope": "@activelylearn",
+        "escapedName": "@activelylearn%2fpassport-clever-oauth20",
+        "name": "@activelylearn/passport-clever-oauth20",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\GitHub\\app\\ActivelyReadNodeBackend"
+    ]
+  ],
+  "_from": "@activelylearn/passport-clever-oauth20@latest",
+  "_id": "@activelylearn/passport-clever-oauth20@0.1.0",
+  "_inCache": true,
+  "_location": "/@activelylearn/passport-clever-oauth20",
+  "_nodeVersion": "6.9.4",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/passport-clever-oauth20-0.1.0.tgz_1505343836133_0.013136544497683644"
+  },
+  "_npmUser": {
+    "name": "admehta01",
+    "email": "admehta01@gmail.com"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {
+    "array-flatten": "1.1.1",
+    "content-type": "1.0.2",
+    "cookie-signature": "1.0.6",
+    "depd": "1.1.1",
+    "etag": "1.7.0",
+    "forwarded": "0.1.0",
+    "fresh": "0.3.0",
+    "iconv-lite": "0.4.13",
+    "inherits": "2.0.3",
+    "methods": "1.1.2",
+    "mime": "1.3.4",
+    "mime-types": "2.1.16",
+    "on-finished": "2.3.0",
+    "on-headers": "1.0.1",
+    "parseurl": "1.3.1",
+    "path-to-regexp": "0.1.7",
+    "raw-body": "2.1.7",
+    "setprototypeof": "1.0.2",
+    "statuses": "1.3.1",
+    "type-is": "1.6.15",
+    "uid-safe": "2.1.4",
+    "unpipe": "1.0.0",
+    "utils-merge": "1.0.0"
+  },
+  "_requested": {
+    "raw": "@activelylearn/passport-clever-oauth20",
+    "scope": "@activelylearn",
+    "escapedName": "@activelylearn%2fpassport-clever-oauth20",
+    "name": "@activelylearn/passport-clever-oauth20",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@activelylearn/passport-clever-oauth20/-/passport-clever-oauth20-0.1.0.tgz",
+  "_shasum": "c15ec06fb1e3877364d68a35b6b02a134739ffe2",
+  "_shrinkwrap": null,
+  "_spec": "@activelylearn/passport-clever-oauth20",
+  "_where": "C:\\GitHub\\app\\ActivelyReadNodeBackend",
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "cookie-parser": "1.4.3",
+    "ejs": "2.4.1",
+    "express": "4.13.3",
+    "express-session": "1.14.2",
+    "oauth": "0.9.x",
+    "passport": "0.3.2",
+    "passport-oauth": "1.0.0",
+    "passport-oauth2": "1.x.x",
+    "passport-strategy": "1.x.x",
+    "request": "2.79.0",
+    "uid2": "0.0.x",
+    "utils-merge": "1.x.x"
+  },
   "description": "PassportJS + Clever Instant Login",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "c15ec06fb1e3877364d68a35b6b02a134739ffe2",
+    "tarball": "https://registry.npmjs.org/@activelylearn/passport-clever-oauth20/-/passport-clever-oauth20-0.1.0.tgz"
+  },
   "engines": {
     "node": "5.9.1"
   },
+  "gitHead": "996f69f91c5a66b87e82223a5a3d95d32a7004d4",
   "main": "index.js",
+  "maintainers": [
+    {
+      "name": "admehta01",
+      "email": "admehta01@gmail.com"
+    }
+  ],
+  "name": "@activelylearn/passport-clever-oauth20",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "scripts": {
     "start": "node index.js"
   },
-  "dependencies": {
-    "ejs": "2.4.1",
-    "express": "4.13.3",
-    "passport": "0.3.2",
-    "passport-oauth": "1.0.0",
-    "cookie-parser": "1.4.3",
-    "body-parser": "1.15.2",
-    "express-session": "1.14.2",
-    "request" : "2.79.0",
-
-    "passport-oauth2": "1.x.x",
-    "oauth": "0.9.x",
-    "passport-strategy": "1.x.x",
-    "uid2": "0.0.x",
-    "utils-merge": "1.x.x"
-  }
+  "version": "0.1.0",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "5.9.1"
+      },
+      "pkgid": "@activelylearn/passport-clever-oauth20@0.1.0"
+    },
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "5.9.1"
+      },
+      "pkgid": "@activelylearn/passport-clever-oauth20@0.1.0"
+    }
+  ]
 }

@@ -1,16 +1,10 @@
-// Load modules.
-var Strategy = require('./strategy')
-  , AuthorizationError = require('./errors/authorizationerror')
-  , TokenError = require('./errors/tokenerror')
-  , InternalOAuthError = require('./errors/internaloautherror');
+/**
+ * Module dependencies.
+ */
+var OAuth2Strategy = require('./passport-oauth2/index');
 
 
-// Expose Strategy.
-exports = module.exports = Strategy;
-
-// Exports.
-exports.Strategy = Strategy;
-
-exports.AuthorizationError = AuthorizationError;
-exports.TokenError = TokenError;
-exports.InternalOAuthError = InternalOAuthError;
+/**
+ * Export constructors.
+ */
+exports.OAuth2Strategy = OAuth2Strategy;
