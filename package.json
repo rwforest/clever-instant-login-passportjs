@@ -11,14 +11,13 @@
   },
   "dependencies": {
     "ejs": "2.4.1",
-    "express": "4.13.3",
+    "express": "4.16.3",
     "passport": "0.3.2",
     "passport-oauth": "1.0.0",
     "cookie-parser": "1.4.3",
-    "body-parser": "1.15.2",
-    "express-session": "1.14.2",
-    "request" : "2.79.0",
-
+    "body-parser": "1.18.3",
+    "express-session": "1.15.6",
+    "request": "2.88.0",
     "passport-oauth2": "1.x.x",
     "oauth": "0.9.x",
     "passport-strategy": "1.x.x",
